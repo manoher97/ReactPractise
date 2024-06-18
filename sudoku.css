@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#errors{
+    color: red;
+}
+#board{
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tile{
+     width: 48px;
+    height: 48px;
+    border: 1px solid grey;
+
+    /* text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#digits{
+    width: 450px;
+    height: 50px;
+    margin: 0 auto;
+   
+}
+#cart{
+display: flex;
+margin: 0 auto;
+justify-content: space-between;
+
+}
+.number{
+    width: 42px;
+    height: 42px;
+    border: 1px solid black;
+
+    /* text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number_selected{
+    background-color: brown;
+}
+.tile_number{
+    background-color: whitesmoke;
+}
+.horizontal_line{
+    border: 1px solid black;
+}
+.vertical_line{
+    border: 1px solid black; 
+}
